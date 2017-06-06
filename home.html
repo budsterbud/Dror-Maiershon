@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en”>
   <head>
-    <meta charset=" utf-8"="">
-    <div style="background-color:purple;">
+<style> 
+#head {
+	background-color: RGB(200,55,200);
+	}
+body {margin:0;}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+	</style>
+            
+    <meta charset=" utf-8>
+    <div>
     <head><title> "Home Page" </title>
 </head>
  
 <body>
 <div style="background-color:purple;">
-
-<a href="index.html">Index</a>
-<a href="home.html">Home</a>
-<a href="ice.html">Ice</a>
-<a href="portfolio.html">Portfolio</a>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Index</a>
+  <a href="home.html">Home</a>
+  <a href="ice.html">Ice</a>
+  <a  class="active" href="portfolio.html">Portfolio</a>
+</div>
  <br>
     <center><h1 align="center">This is Dror's Home Page!</h1></center>
     <center><img src="boi.jpg" height="250"></center>
